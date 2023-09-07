@@ -24,7 +24,7 @@ npm run dev
 
 ・営業
 メールアドレス:sales@example.com
-パスワード:12345678
+パスワード:90909090
 
 ・管理者
 メールアドレス:admin@example.com
