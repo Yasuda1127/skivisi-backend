@@ -1,15 +1,30 @@
+# プロジェクトの概要
+エンジニアスキル可視化サイト。<br />
+ユーザー登録からスキルのレーダーチャートの表示、スペックシートの提出・承認ができるシステムを構築。
+
+
+# 使用方法、インストール方法、実行方法
+- パッケージインストール
 ```
-git clone git@github.com:skivisi/backend.git<br>
-cd backend<br>
-npm install<br>
+npm install
+```
+
+- サーバー起動
+```
 npm run dev
 ```
 
-postgres
+- テストログイン
 ```
-// サーバー起動
-postgres -D /usr/local/var/postgres &
+・エンジニア
+メールアドレス:test@example.com
+パスワード:12345678
 
-// サーバー停止
-pg_ctl -D /usr/local/var/postgres stop
+・営業
+メールアドレス:sales@example.com
+パスワード:12345678
+
+・管理者
+メールアドレス:admin@example.com
+パスワード:56565656
 ```
